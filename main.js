@@ -7,7 +7,7 @@ const form = document.querySelector("form");
 const input = document.querySelector(".input-message");
 const messages = document.querySelector(".messages");
 var username = document.querySelector('.input-username').value;//prompt("Please enter a nickname: ", "")
-const socket = io('142.93.122.177/', {transports: ['websocket'],upgrade:false});
+const socket = io('https://142.93.122.177');
 
 function randomNumbers(max, len) { var str = ''; for (var i = len-1; i >= 0; i--) { str += Math.floor(Math.random() * Math.floor(max)); } return str; }
 

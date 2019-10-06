@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Chat App</title>
+        <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.dev.js"></script>
+        <script src='js/main.js'></script>
+    </head>
+    <body>
+
+        <div class="popup">
+            <div>
+                <h1>Enter Your Name</h1>
+                <input type="text" placeholder="John" class="input-username" autofocus>
+                <button>Chat!</button>
+            </div>
+        </div>
+
+        <ul class="messages"></ul>
+        <form>
+            <input type="text" placeholder="Your amazing message..." class="input-message" autocomplete="off" autofocus />
+            <button>Send</button>
+        </form>
+    </body>
+</html>
